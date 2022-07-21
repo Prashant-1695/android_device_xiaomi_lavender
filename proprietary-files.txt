@@ -1570,9 +1570,6 @@ vendor/lib/libOmxWmaDec.so|1905db76bd6f9d42d1b4d974fd744c026b4b580a
 vendor/lib/libvqzip.so|d037d6e54f6cff1755acb5e1f04a43536bcb8acf
 vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
 
-# IRQ balance - from jasmine
-vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
-
 # Peripheral manager - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
 vendor/bin/pm-service|835238076f47bf46cee01b27a76a96282eadb309

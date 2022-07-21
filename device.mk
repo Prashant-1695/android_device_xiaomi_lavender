@@ -332,6 +332,10 @@ PRODUCT_PACKAGES += \
 		 android.hardware.power-service-qti \
 		 power.qcom
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \

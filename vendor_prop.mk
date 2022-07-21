@@ -163,10 +163,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q660-13149-1
 
-# Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so
-
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.backup.ntpServer=0.pool.ntp.org \
