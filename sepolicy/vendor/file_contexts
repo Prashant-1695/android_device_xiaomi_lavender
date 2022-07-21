@@ -1,6 +1,9 @@
 # Biometric
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.lavender   u:object_r:hal_fingerprint_lavender_exec:s0
 
+# DT2W
+/sys/touchpanel/double_tap                      u:object_r:sysfs_touchpanel:s0
+
 # Fingerprint
 /data/gf_data(/.*)?                             u:object_r:fingerprintd_data_file:s0
 /data/vendor/fpc(/.*)?                          u:object_r:fingerprint_vendor_data_file:s0
@@ -30,9 +33,6 @@
 
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.lavender                     u:object_r:hal_light_default_exec:s0
-
-# Power
-/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lavender-libperfmgr               u:object_r:hal_power_default_exec:s0
 
 # Root files
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0

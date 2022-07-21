@@ -51,6 +51,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 TARGET_KERNEL_CONFIG := lavender-perf_defconfig
+TARGET_KERNEL_VERSION := 4.4
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
@@ -142,6 +143,9 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Power
+TARGET_USES_INTERACTION_BOOST := true
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
@@ -161,7 +165,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/configs/seccomp
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
