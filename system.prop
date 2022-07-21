@@ -1,19 +1,11 @@
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
-# CNE
-persist.vendor.cne.feature=1
-
 #Dex
 dalvik.vm.dex2oat64.enabled=true
 
 # Graphics
 debug.sf.enable_hwc_vds=0
-
-# Radio
-DEVICE_PROVISIONED=1
-ril.subscription.types=NV,RUIM
-telephony.lteOnCdmaDevice=1
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
