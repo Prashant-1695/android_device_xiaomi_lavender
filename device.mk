@@ -9,6 +9,9 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Platform
+TARGET_BOARD_PLATFORM := sdm660
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
