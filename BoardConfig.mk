@@ -68,9 +68,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 0
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
