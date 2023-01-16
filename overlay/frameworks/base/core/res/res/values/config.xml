@@ -452,4 +452,15 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track the default color temperature value (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+     <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+     <bool name="config_multiColorBatteryLed">false</bool>
+
+     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+     <bool name="config_intrusiveBatteryLed">true</bool>
+
+     <!-- Do the battery/notification LEDs support pulsing?
+          Used to decide if we show pulse settings -->
+     <bool name="config_ledCanPulse">true</bool>
 </resources>
