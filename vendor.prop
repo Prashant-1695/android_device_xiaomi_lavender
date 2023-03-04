@@ -106,6 +106,7 @@ vendor.video.disable.ubwc=1
 
 # Charger
 ro.charger.enable_suspend=true
+persist.vendor.camera.perflock.enable=0
 
 # Ccodec
 debug.stagefright.omx_default_rank.sw-audio=1
