@@ -54,4 +54,7 @@
          if set it to false  -->
     <bool name="flag_combined_qs_headers">false</bool>
 
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+
 </resources>
