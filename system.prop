@@ -38,6 +38,3 @@ persist.audio.dirac.speaker=true
 persist.dirac.acs.controller=qem 
 persist.dirac.acs.ignore_error=1 
 persist.dirac.acs.storeSettings=1
-
-#Display 
-renderthread.skia.reduceopstasksplitting=true
