@@ -455,4 +455,8 @@
      <!-- Do the battery/notification LEDs support pulsing?
           Used to decide if we show pulse settings -->
      <bool name="config_ledCanPulse">true</bool>
+
+     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+          in hardware. -->
+     <bool name="config_setColorTransformAccelerated">true</bool>
 </resources>
